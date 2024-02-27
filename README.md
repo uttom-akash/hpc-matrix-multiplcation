@@ -27,8 +27,8 @@ The `MultiplySerialy` method will multiply two matrices `A` and `B` serially. Yo
 
 Here `n = number of rows in the matrix`
 
-Serial Multiplication takes less time for a small input matrix for n < 49 with blocksize = sqrt(n)
---------------------
+###### Serial Multiplication takes less time for a small input matrix for n < 49 with blocksize = sqrt(n)
+
 ```
 
 n =      1
@@ -40,8 +40,8 @@ Parallel Multiply duration:  7
 
 
 
-Parallel Multiplication takes less time for a larger input matrix (for n >= 49):
----------------------
+###### Parallel Multiplication takes less time for a larger input matrix (for n >= 49):
+
 ```
 
 n =      49
